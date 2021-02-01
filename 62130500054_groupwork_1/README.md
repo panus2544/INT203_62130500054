@@ -2,7 +2,8 @@
 
 ** Original Website **
 - https://www.youtube.com/watch?v=vvuUvbJfvyA&ab_channel=WayferRecords
-- ![Alt text](/62130500054_groupwork_1/images/screenshot-rocks.png?raw=true "Screenshot Youtube Clone")
+![Alt text](/62130500054_groupwork_1/images/screenshot-rocks.png?raw=true "Screenshot Youtube Clone")
+
 **Infomation**
 - I'm a Student in **School of Technology** at **King Mongkut's University of Technology Thonburi**
 - This is repository for learning Web Client Side of INT203.
