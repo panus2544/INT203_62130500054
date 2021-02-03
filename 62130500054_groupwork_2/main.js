@@ -5,7 +5,7 @@ let app = Vue.createApp({
         return {
             firstName: 'Hello, Vue3',
             lastName: 'Hello, Vue3',
-            imageUrl : 'http://www.sit.kmutt.ac.th/'
+            url : 'http://www.sit.kmutt.ac.th/'
         }
     },
     methods: {

@@ -1,7 +1,6 @@
 # Group Work 2 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
 ** Lab1 **
-- https://www.youtube.com/watch?v=vvuUvbJfvyA&ab_channel=WayferRecords
 ![Alt text](/62130500054_groupwork_2/screenshot-rocks.png?raw=true "Screenshot My Profile")
 
 **Infomation**
