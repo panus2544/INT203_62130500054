@@ -5,7 +5,9 @@ let app = Vue.createApp({
         return {
             firstName: 'Panus',
             lastName: 'Kotrajarus',
-            imageUrl : './images/panus.png'
+            imageUrl : './images/panus.png',
+            follower : 1000,
+            rating : 999
         }
     },
     // methods: {
