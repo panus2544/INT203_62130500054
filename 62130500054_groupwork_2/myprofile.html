@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+
+<body>
+
+    <div id="app">
+        
+        <div class="h-screen bg-gray-300">
+            <div class="container flex justify-center py-20">
+                <div class="max-w-lg p-3 bg-white rounded-xl hover:shadow">
+                    <div class="flex justify-between w-full"> <img :src="imageUrl" width="150" class="rounded-lg">
+                        <div class="ml-2">
+                            <div class="p-3">
+                                <h3 class="text-2xl">{{firstName}}</h3> <span>{{lastName}}</span>
+                            </div>
+                            <div class="flex items-center justify-between p-3 bg-gray-200 rounded-lg">
+                                <div class="mr-3"> <span class="block text-gray-400">Article</span> <span class="text-xl font-bold text-black">34</span> </div>
+                                <div class="mr-3"> <span class="block text-gray-400">Followers</span> <span class="text-xl font-bold text-black">940</span> </div>
+                                <div> <span class="block text-gray-400">Ratings</span> <span class="text-xl font-bold text-black">8.9</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between gap-2 mt-2"> <button class="w-full h-12 border-2 rounded-md text-md hover:shadow hover:bg-red-700 hover:border-red-700 hover:text-white ">Chat</button> <button class="w-full h-12 text-white bg-blue-700 rounded-md text-md hover:shadow hover:bg-blue-800">Chat</button> </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- <my-button @whenclick="changeTitleText"></my-button> -->
+
+    <!-- my main.js -->
+    <script src="profile.js"></script>
+
+</body>
+
+</html>

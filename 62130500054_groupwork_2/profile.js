@@ -3,16 +3,16 @@ let app = Vue.createApp({
 
     data() {
         return {
-            firstName: 'Hello, Vue3',
-            lastName: 'Hello, Vue3',
-            imageUrl : 'http://www.sit.kmutt.ac.th/'
+            firstName: 'Panus',
+            lastName: 'Kotrajarus',
+            imageUrl : './images/panus.png'
         }
     },
-    methods: {
-        changeTitleText(){
-            this.title = 'โค้ดนี้ทำงานได้ใน Vue 3'
-        }
-    },
+    // methods: {
+    //     changeTitleText(){
+    //         this.title = 'โค้ดนี้ทำงานได้ใน Vue 3'
+    //     }
+    // },
 })
 
 // app.component('my-button', {
