@@ -13,27 +13,35 @@
 <body>
 
     <div id="app">
-        
+
         <div class="h-screen bg-gray-300">
             <div class="container flex justify-center py-20">
                 <div class="max-w-lg p-3 bg-white rounded-xl hover:shadow">
-                    <div class="flex justify-between w-full"> <img :src="imageUrl" width="150" class="rounded-lg">
+                    <div class="flex justify-between w-full">
+                        <a :href="githubUrl"><img :src="imageUrl" width="150" class="rounded-lg"></a>
                         <div class="ml-2">
                             <div class="p-3">
                                 <h3 class="text-2xl">{{firstName}}</h3> <span>{{lastName}}</span>
                             </div>
                             <div class="flex items-center justify-between p-3 bg-gray-200 rounded-lg">
-                                <div class="mr-3"> <span class="block text-gray-400">Article</span> <span class="text-xl font-bold text-black">34</span> </div>
-                                <div class="mr-3"> <span class="block text-gray-400">Followers</span> <span class="text-xl font-bold text-black">{{follower}}</span> </div>
-                                <div> <span class="block text-gray-400">Ratings</span> <span class="text-xl font-bold text-black">{{rating}}</span> </div>
+                                <div class="mr-3"> <span class="block text-gray-400">Article</span> <span
+                                        class="text-xl font-bold text-black">34</span> </div>
+                                <div class="mr-3"> <span class="block text-gray-400">Followers</span> <span
+                                        class="text-xl font-bold text-black">{{follower}}</span> </div>
+                                <div> <span class="block text-gray-400">Ratings</span> <span
+                                        class="text-xl font-bold text-black">{{rating}}</span> </div>
                             </div>
                         </div>
                     </div>
-                    <div class="flex items-center justify-between gap-2 mt-2"> <button class="w-full h-12 border-2 rounded-md text-md hover:shadow hover:bg-red-700 hover:border-red-700 hover:text-white ">Chat</button> <button class="w-full h-12 text-white bg-blue-700 rounded-md text-md hover:shadow hover:bg-blue-800">Chat</button> </div>
+                    <div class="flex items-center justify-between gap-2 mt-2"> <button
+                            class="w-full h-12 border-2 rounded-md text-md hover:shadow hover:bg-red-700 hover:border-red-700 hover:text-white ">Chat</button>
+                        <button
+                            class="w-full h-12 text-white bg-blue-700 rounded-md text-md hover:shadow hover:bg-blue-800">Chat</button>
+                    </div>
                 </div>
             </div>
         </div>
-        
+
     </div>
     <!-- <my-button @whenclick="changeTitleText"></my-button> -->
 

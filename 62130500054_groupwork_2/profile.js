@@ -6,6 +6,7 @@ let app = Vue.createApp({
             firstName: 'Panus',
             lastName: 'Kotrajarus',
             imageUrl : './images/panus.png',
+            githubUrl : 'https://github.com/panus2544',
             follower : 1000,
             rating : 999
         }
